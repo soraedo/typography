@@ -1,0 +1,64 @@
+/* Embedded Fonts */
+@font-face {
+	font-family: freescpt;
+	src:url(../fonts/freescpt.ttf);
+}
+
+
+
+
+
+/* Container Items */
+
+html,body {
+	height: 100%;
+	width: 100%;
+}
+
+#cover {
+	position: fixed;
+	width: 80%;
+	height: 100%;
+	right: 0px;
+	background: url("../images/cover.jpg") no-repeat;
+	-webkit-background-size: cover;
+}
+
+#container {
+	position: absolute;
+	top: 75%;
+	left: 5%;
+}
+
+/* Paragraph Styles */
+
+.title {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 10em;
+	line-height: 80%;
+	text-align: right;
+	color: white;	
+}
+
+.author {
+	font-size: 1.75em;
+}
+
+
+.text {
+	font-family: 'EB Garamond', serif;
+	font-size: 1.25em;
+	width: 50%;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.ceramic {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	top: 30%;
+	left: 7%;
+}
